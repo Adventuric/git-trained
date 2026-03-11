@@ -23,6 +23,8 @@ c.execute('''CREATE TABLE IF NOT EXISTS tasks (
 
 CNC.commit()
 
+# Reminder Feature
+
 class NCalApp:
     def __init__(self, root):
         self.root = root
